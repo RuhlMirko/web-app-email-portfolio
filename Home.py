@@ -1,6 +1,8 @@
 import streamlit as st
 import pandas
 
+# TODO: git>manage remotes>copy ssh>push the commits
+
 st.set_page_config(layout='wide')
 
 col1, white_space, col2 = st.columns([1.5, 0.5, 1.5])
