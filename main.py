@@ -32,8 +32,12 @@ with col3:
     for index, row in df.iterrows():
         if index % 2 == 0:
             st.subheader(row['title'])
+            st.write(row['description'])
+            st.image(row['image'])
 
 with col4:
     for index, row in df.iterrows():
         if index % 2 != 0:
             st.subheader(row['title'])
+            st.write(row['description'])
+
